@@ -19,5 +19,8 @@ jobs:
           server: ${{ secrets.SERVER }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          local-dir: /
+          local-dir: |
+            /images
+            ./index.html
+
           server-dir: /
